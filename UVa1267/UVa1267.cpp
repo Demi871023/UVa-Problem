@@ -3,7 +3,7 @@
 /*
 	想法：
 
-		建圖之後，利用dfs記錄下每個node的父親以及依據dist在nodes[]紀錄下超過k的node是誰。
+		建圖之後，利用dfs1記錄下每個node的父親以及依據dist在nodes[]紀錄下超過k的node是誰。
 
 		接著依據nodes[]，從dist最遠的開始反推距離k的祖先是誰。
 		<重點！從dist最遠反推距離k的祖先一定要佈下服務器>
