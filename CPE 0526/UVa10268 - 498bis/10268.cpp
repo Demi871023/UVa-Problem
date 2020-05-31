@@ -26,8 +26,8 @@ int main()
 		long long int powx = 1;
 		for (int i = coefvec.size()-1, j = 1; i>=0; i--, j++)
 		{
-		    ans = ans + coefvec[i] * j * powx;
-		    powx = powx * x;
+		    	ans = ans + coefvec[i] * j * powx;
+		    	powx = powx * x;
 		}
 		printf("%lld\n", ans);
 		coefvec.clear();
